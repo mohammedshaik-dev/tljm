@@ -1,0 +1,28 @@
+.hero-content p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #1a1a1a; /* Dark gray for better contrast */
+  font-weight: 500; /* Slightly bold for visibility */
+}
+
+.hero-content .quote {
+  font-family: 'Amiri', serif; /* Elegant font for quotes */
+  font-size: 1.5rem; /* Larger font for emphasis */
+  font-style: italic;
+  margin: 20px 0;
+  color: #071019; /* Deep blue-gray for elegance */
+}
+
+.hero-content .quote::before,
+.hero-content .quote::after {
+  font-size: 2rem;
+  color: #27ae60; /* Green color for quote marks */
+  margin: 0 5px;
+}
+
+.hero-content .quote span {
+  font-size: 1rem;
+  display: block;
+  margin-top: 10px;
+  color: #151717; /* Subtle gray for author reference */
+}
