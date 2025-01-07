@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'playfair-display.italic';
+    src: url('/assets/fonts/playfair-display.italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .sitename {
+    font-family: 'playfair-display.italic',sans-serif;
+    font-size: 3.0rem !important; /* Adjust size as needed */
+    text-align: center; /* Optional, for centering */
+    color: #154a15 !important; /* Optional, for text color */
+    font-weight: lighter !important;
+  }
