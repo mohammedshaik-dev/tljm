@@ -28,6 +28,6 @@ export default `<!doctype html>
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
     <i class="bi bi-arrow-up-short"></i>
   </a>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="scripts-AXBCEEUZ.js" defer=""></script><script src="main-ZIZSTTUR.js" type="module"></script></body>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="scripts-AXBCEEUZ.js" defer=""></script><script src="main-KVFBIZTY.js" type="module"></script></body>
 </html>
 `;
