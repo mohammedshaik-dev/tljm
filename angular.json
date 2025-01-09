@@ -16,6 +16,7 @@
             "outputPath": "dist/triplicane-masjid-website",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/tljm/",
             "polyfills": [
               "zone.js"
             ],
