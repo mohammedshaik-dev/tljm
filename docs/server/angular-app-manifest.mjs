@@ -6,8 +6,8 @@ export default {
   locale: undefined,
   routes: undefined,
   assets: {
-    'index.csr.html': {size: 169928, hash: '81ad404697d5c9dd85b1547686a2eca82912945b26b17a2876e5a542c130cc09', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 162595, hash: 'a30c2cd8a079b9a99541fe46c6e97e23f89d036dfd76ee3bfe2c674b238477c9', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 171445, hash: '89a21adcc813e98b10770eb3909a01de823e917ef5e37cf60ffeba4d0544f1ae', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 164112, hash: '8c0e3a74b43672a4a9a70b9a12ae8e6faecebebb03c7ae93b6af62f134878725', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
     'styles-XQMBQOO6.css': {size: 405586, hash: 'ba51waO4+bE', text: () => import('./assets-chunks/styles-XQMBQOO6_css.mjs').then(m => m.default)}
   },
 };
