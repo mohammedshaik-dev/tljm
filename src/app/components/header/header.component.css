@@ -1,13 +1,10 @@
-@font-face {
-    font-family: 'playfair-display.italic';
-    src: url('/tljm/assets/fonts/playfair-display.italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap');
+
   .sitename {
-    font-family: 'playfair-display.italic',sans-serif;
+    font-family: 'Playfair Display',sans-serif;
     font-size: 3.0rem !important; /* Adjust size as needed */
     text-align: center; /* Optional, for centering */
     color: #154a15 !important; /* Optional, for text color */
     font-weight: lighter !important;
+    font-style: italic;
   }
