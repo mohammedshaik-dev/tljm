@@ -8,7 +8,7 @@ export default `<!doctype html>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <!-- Favicons -->
-  <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
@@ -28,6 +28,6 @@ export default `<!doctype html>
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
     <i class="bi bi-arrow-up-short"></i>
   </a>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="scripts-AXBCEEUZ.js" defer=""></script><script src="main-ZIZSTTUR.js" type="module"></script></body>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="scripts-AXBCEEUZ.js" defer=""></script><script src="main-55WMNEVB.js" type="module"></script></body>
 </html>
 `;
