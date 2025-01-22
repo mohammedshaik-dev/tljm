@@ -1,7 +1,5 @@
 {
   "routes": {
-    "/tljm": {},
-    "/tljm/about": {},
-    "/tljm/contact": {}
+    "/tljm": {}
   }
 }
