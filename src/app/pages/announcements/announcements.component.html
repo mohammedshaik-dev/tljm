@@ -1,0 +1,20 @@
+<section id="team" class="team section light-background">
+  <div class="container section-title" data-aos="fade-up">
+    <h1 style="color: #106eea;font-weight:bolder;"> Announcements</h1>
+  </div>
+  <div *ngFor="let announcement of announcements; let i = index" class="announcement-card" [class.latest]="i === 0" data-aos="fade-up" data-aos-delay="100">
+    <div class="announcement-header">
+      <h2 class="announcement-title">{{ announcement.title }}
+      <span
+        *ngIf="announcement.isNew"
+        class="new-badge"
+        [@newBadgePulse]="'active'"
+      >
+        NEW
+      </span>
+    </h2>
+    </div>
+    <p class="announcement-content"> {{ announcement.content }}</p>
+    <span class="announcement-date">{{ announcement.date }}</span>
+  </div>
+</section>

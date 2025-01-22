@@ -1,8 +1,18 @@
-  .sitename {
-    font-family: 'Playfair Display',sans-serif;
-    font-size: 3.0rem !important; /* Adjust size as needed */
-    text-align: center; /* Optional, for centering */
-    color: #154a15 !important; /* Optional, for text color */
-    font-weight: lighter !important;
-    font-style: italic;
+/* styles.scss or your component's specific SCSS */
+.contact-info {
+    font-family: 'Roboto', sans-serif;  /* Apply the new font */
   }
+  
+  .contact-info i {
+    font-size: 1.0rem; /* Optional: adjust icon size */
+  }
+  
+  .contact-info a {
+    color: #007bff; /* Optional: style the link */
+    font-weight: 500; /* Optional: make the email text bold */
+  }
+  
+  .contact-info span {
+    font-size: 1.0rem; /* Optional: adjust phone number font size */
+  }
+  

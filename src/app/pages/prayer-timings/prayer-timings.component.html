@@ -1,0 +1,9 @@
+<section class="light-background">
+<div class="prayer-timings-container">
+  <div *ngFor="let timing of prayerTimings" class="prayer-timing {{ timing.name.toLowerCase() }}">
+    <img [src]="'assets/img/' + timing.name.toLowerCase() + '.png'" [alt]="timing.name">
+    <h3>{{ timing.name }}</h3>
+    <p>{{ timing.time }}</p>
+  </div>
+</div>
+</section>

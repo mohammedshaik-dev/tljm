@@ -1,0 +1,66 @@
+/* Container for prayer timings */
+.prayer-timings-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow: hidden;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Individual prayer timing card */
+.prayer-timing {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 150px; /* Fixed width for consistency */
+}
+
+/* Hover effect for cards */
+.prayer-timing:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Icons styling */
+.prayer-timing img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+/* Color coding for different prayers */
+.prayer-timing.fajr { background-color: #e3f2fd; } /* Light blue for Fajr */
+.prayer-timing.dhuhr { background-color: #fff3e0; } /* Light orange for Dhuhr */
+.prayer-timing.asr { background-color: #f0f4c3; } /* Light green for Asr */
+.prayer-timing.maghrib { background-color: #ffccbc; } /* Light red for Maghrib */
+.prayer-timing.isha { background-color: #d1c4e9; } /* Light purple for Isha */
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .prayer-timings-container {
+    flex-direction: column;
+  }
+  .prayer-timing {
+    width: 80%;
+    margin: 10px 0;
+  }
+}
